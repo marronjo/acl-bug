@@ -1,2 +1,1 @@
-# acl-bug
-Reproduce access control bug from cofhe-mock-contracts
+Reproduce ACL error in cofhe-mock-contracts

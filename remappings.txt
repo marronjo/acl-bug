@@ -1,0 +1,2 @@
+@fhenixprotocol/=node_modules/@fhenixprotocol/
+forge-std/=lib/forge-std/src/
