@@ -1,5 +1,9 @@
 # Reproduce ACL error in cofhe-mock-contracts
 
+## TL;DR
+cofhe-mock-contracts contains an access control bugs which allow for contracts to compute on encrypted values without necessary permission.
+e.g. FHE.allow(handle) can be omitted and the tests will still pass. This means the local behaviour differs to testnet!
+
 ## Install Dependencies
 
 Foundry and npm dependencies
