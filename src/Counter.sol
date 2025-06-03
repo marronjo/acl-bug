@@ -7,7 +7,7 @@ import {FHE, euint128} from "@fhenixprotocol/cofhe-contracts/FHE.sol";
  * Contract to demonstrate ACL bugs in mock contracts
  * This contract is missing 3 allowances
  */
-contract Counter1 {
+contract Counter {
     euint128 public number;
     euint128 public immutable ONE;
 
