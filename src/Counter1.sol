@@ -9,7 +9,7 @@ import {FHE, euint128} from "@fhenixprotocol/cofhe-contracts/FHE.sol";
  */
 contract Counter1 {
     euint128 public number;
-    euint128 private immutable ONE;
+    euint128 public immutable ONE;
 
     constructor(){
         ONE = FHE.asEuint128(1);
